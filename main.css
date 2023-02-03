@@ -1,0 +1,16 @@
+#hero-image {
+    background-image: url(https://picsum.photos/1500/500);
+    height: 500px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+#footer {
+    height: 100px;
+}
+
+#email-button {
+    height: 24px;
+    width: 30px;
+}
