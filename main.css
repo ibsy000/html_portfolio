@@ -7,10 +7,18 @@
 }
 
 #footer {
-    height: 100px;
+    height: 150px;
 }
 
-#email-button {
-    height: 24px;
-    width: 30px;
+#email-button, #linkedin-button, #github-button{
+    height: 45px;
+    width: 45px;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+
+#contact-hr {
+    border: 1px solid #D63384;
+    width: 300px;
 }

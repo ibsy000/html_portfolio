@@ -27,7 +27,7 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active" href="#top">Home</a>
+                            <a class="nav-link" href="#top">Home</a>
                             <a class="nav-link" href="#about-me">About</a>
                             <a class="nav-link" href="#skills-experience">Skills & Experience</a>
                             <a class="nav-link" href="#projects">Projects</a>
@@ -46,8 +46,9 @@
 
 
             <!------------------------ About Me ------------------------------->
+            <hr id="about-me">
             <div class="container">
-                <div class="row" id="about-me">
+                <div class="row">
                     <h1><code>< About Me /></code></h1>
                     <hr>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -67,8 +68,9 @@
 
 
             <!------------------ Skills & Experience -------------------------->
+            <hr id="skills-experience">
             <div class="container">
-                <div class="row" id="skills-experience">
+                <div class="row">
                     <h1><code>< Skills & Experience /></code></h1>
                     <hr>
                     <ul>
@@ -94,8 +96,9 @@
 
 
             <!--------------------------- Projects ---------------------------->
+            <hr id="projects">
             <div class="container">
-                <div class="row" id="projects">
+                <div class="row">
                     <h1><code>< Projects /></code></h1>
                     <hr>
 
@@ -244,28 +247,37 @@
                 </div>
             </div>
 
-
-            <!------------------------ Contact -------------------------------->
-            <div class="container">
-                <div class="row" id="contact">
-                    <h1><code>< Contact Me /></code></h1>
-                    <hr>
-                </div>
-                <div class="row">
-                    <a class="email-button" href="mailto:ibsy00@gmail.com">
-                        <i class="bi bi-envelope-at" id="email-button"></i>
-                    </a>
-                    <!-- <button type="button" class="btn btn-primary">
-                    </button> -->
-                </div>
-            </div>
+            <hr>
             
+            <!------------------------ Footer & Contact ----------------------->
+            <div class="container" id="contact">
 
-            <!------------------------ Footer -------------------------------->
-            <div class="container">
-                <div class="row bg-dark text-white" id="footer">
-                    <p class="d-inline-flex justify-content-center 
-                        align-items-center"><code>< &copy Ibsy Matute /></code></p>
+                <div class="row bg-dark justify-content-center align-items-center" id="footer">
+                    
+                    <!--------------------- Contact Me ------------------------>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <h4><code>< <b>Contact Me</b> /></code></h4>
+                    </div>
+                    <hr id="contact-hr">
+                    
+                    <!---------------------- Social Icons --------------------->
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a class="email" href="mailto:ibsy00@gmail.com">
+                            <img src="/images/email (1).png" alt="email" id="email-button">
+                        </a>
+                        <a class="linkedin" href="https://www.linkedin.com/in/ibsy-matute/">
+                            <img src="/images/linkedin (1).png" alt="linkedin" id="linkedin-button">
+                        </a>
+                        <a class="github" href="https://github.com/ibsy000">
+                            <img src="/images/github (1).png" alt="github" id="github-button">
+                        </a>
+                    </div>
+
+                    <!----------------------- Copyright ----------------------->
+                    <div class="d-flex justify-content-center align-items-center">
+                        <p class="m-0"><code>< &copy Ibsy Matute /></code></p> 
+                    </div>
+
                 </div>
             </div>
 
