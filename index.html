@@ -265,12 +265,8 @@
                         <a class="email" href="mailto:ibsy00@gmail.com">
                             <img src="/images/email (1).png" alt="email" id="email-button">
                         </a>
-                        <a class="linkedin" href="https://www.linkedin.com/in/ibsy-matute/">
-                            <img src="/images/linkedin (1).png" alt="linkedin" id="linkedin-button">
-                        </a>
-                        <a class="github" href="https://github.com/ibsy000">
-                            <img src="/images/github (1).png" alt="github" id="github-button">
-                        </a>
+                        <img src="/images/linkedin (1).png" alt="linkedin" id="linkedin-button" onclick="myLinkedIn()">
+                        <img src="/images/github (1).png" alt="github" id="github-button" onclick="myGitHub()">
                     </div>
 
                     <!----------------------- Copyright ----------------------->
@@ -285,7 +281,15 @@
         <!------------------ End Main Container --------------------->
         </div>
 
+        <script>
+            function myLinkedIn() {
+                window.open("https://www.linkedin.com/in/ibsy-matute/")
+            }
 
+            function myGitHub() {
+                window.open("https://github.com/ibsy000")
+            }
+        </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

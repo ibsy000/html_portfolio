@@ -18,6 +18,10 @@
     margin-bottom: 10px;
 }
 
+#linkedin-button:hover, #github-button:hover {
+    cursor: pointer;
+}
+
 #contact-hr {
     border: 1px solid #D63384;
     width: 300px;
