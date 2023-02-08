@@ -1,5 +1,6 @@
 #hero-image {
-    background-image: url(https://picsum.photos/1500/500);
+    background-image: linear-gradient(25deg, #d6338470, rgba(128, 128, 128, 0.527)),
+        url(https://picsum.photos/1500/500);
     height: 500px;
     margin-left: 0;
     margin-right: 0;
@@ -31,4 +32,9 @@
     color: #D63384;
     text-transform: uppercase;
     text-decoration: overline;
+}
+
+#nav-logo {
+    height: 50px;
+    width: 50px;
 }
