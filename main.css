@@ -11,6 +11,10 @@
     width: 50%;
 }
 
+#about-me-columns {
+    text-align: center;
+}
+
 #footer {
     height: 150px;
 }
