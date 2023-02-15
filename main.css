@@ -5,6 +5,12 @@
     text-align: center;
 }
 
+#hero-header-hr {
+    border: 2px solid #D63384;
+    opacity: 80%;
+    width: 50%;
+}
+
 #footer {
     height: 150px;
 }
@@ -37,7 +43,7 @@
     width: 50px;
 }
 
-#about-me-header, #skills-header, #projects-header, #hero-header {
+#about-me-header, #skills-header, #projects-header {
     overflow: hidden;
     white-space: nowrap;
     animation:
