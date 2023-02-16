@@ -3,6 +3,7 @@
         url(https://picsum.photos/id/29/1200/950);
     height: 350px;
     text-align: center;
+    color: white;
 }
 
 #hero-header-hr {
